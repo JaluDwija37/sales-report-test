@@ -75,8 +75,10 @@
                         }
                     });
                 } else {
-                    $('#alamatData').html('DIV AREA (id = cust_alamat)');
-                    $('#penjualanData').html('DIV AREA (id = cust_penjualan)');
+                    $('#alamatData').html(
+                        "<div class='px-3 w-full py-2 border-green-400 border-2'>Choose Data</div>");
+                    $('#penjualanData').html(
+                        "<div class='px-3 w-full py-2 border-red-400 border-2'>Choose Data</div>");
                 }
             });
         });
